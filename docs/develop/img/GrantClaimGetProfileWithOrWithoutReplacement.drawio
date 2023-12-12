@@ -1,0 +1,162 @@
+<mxfile host="app.diagrams.net" modified="2023-12-08T16:55:14.479Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0" etag="k5jnNJb4qhf1GX4TWjKG" version="22.1.7" type="device">
+  <diagram name="Page-1" id="-PNgyL4yf28jBYAbtMfu">
+    <mxGraphModel dx="2231" dy="1220" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="TPNfOtbe-Nmbu9DTXr1a-1" value="&lt;h1&gt;Grant claim: Get profile with or without replacement&lt;br&gt;&lt;/h1&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="172.5" y="10" width="620" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="TPNfOtbe-Nmbu9DTXr1a-2" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" vertex="1" parent="1">
+          <mxGeometry x="100" y="125" width="20" height="1055" as="geometry" />
+        </mxCell>
+        <mxCell id="TPNfOtbe-Nmbu9DTXr1a-3" value="Claim" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="170" y="125" width="100" height="1055" as="geometry" />
+        </mxCell>
+        <mxCell id="TPNfOtbe-Nmbu9DTXr1a-4" value="ProfileToUserAdmin" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="315" y="125" width="155" height="1055" as="geometry" />
+        </mxCell>
+        <mxCell id="TPNfOtbe-Nmbu9DTXr1a-5" value="ProfileToRecordAttribution" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="500" y="125" width="155" height="1055" as="geometry" />
+        </mxCell>
+        <mxCell id="TPNfOtbe-Nmbu9DTXr1a-6" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="TPNfOtbe-Nmbu9DTXr1a-5">
+          <mxGeometry x="75" y="713" width="5" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="TPNfOtbe-Nmbu9DTXr1a-7" value="PublicProfile" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="680" y="125" width="145" height="1055" as="geometry" />
+        </mxCell>
+        <mxCell id="TPNfOtbe-Nmbu9DTXr1a-8" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="109.5" y="200" as="sourcePoint" />
+            <mxPoint x="219.5" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TPNfOtbe-Nmbu9DTXr1a-9" value="grant claim" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TPNfOtbe-Nmbu9DTXr1a-8">
+          <mxGeometry x="-0.1545" y="-1" relative="1" as="geometry">
+            <mxPoint y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TPNfOtbe-Nmbu9DTXr1a-10" value="GlobalAdminProfile" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="45" y="95" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TPNfOtbe-Nmbu9DTXr1a-11" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="230" as="sourcePoint" />
+            <mxPoint x="392" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TPNfOtbe-Nmbu9DTXr1a-12" value="grantToProfile" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TPNfOtbe-Nmbu9DTXr1a-11">
+          <mxGeometry x="-0.1545" y="-1" relative="1" as="geometry">
+            <mxPoint y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TPNfOtbe-Nmbu9DTXr1a-13" value="&lt;div&gt;-userID&lt;/div&gt;&lt;div&gt;-profileID&lt;/div&gt;&lt;div&gt;- replacementProfileID&lt;br&gt;&lt;/div&gt;-replacementProfileDetails: Profile" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="200" y="225" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="TPNfOtbe-Nmbu9DTXr1a-15" value="delete(profileID)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="1" target="TPNfOtbe-Nmbu9DTXr1a-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="391.57142857142844" y="1018" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TPNfOtbe-Nmbu9DTXr1a-16" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" parent="1" source="TPNfOtbe-Nmbu9DTXr1a-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="391.57142857142844" y="1088" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TPNfOtbe-Nmbu9DTXr1a-17" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="747.5" y="1013" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TPNfOtbe-Nmbu9DTXr1a-19" value="alt" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="260" y="514" width="570" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="TPNfOtbe-Nmbu9DTXr1a-20" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="750" y="559" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TPNfOtbe-Nmbu9DTXr1a-21" value="[if no replacementProfileID&lt;br&gt;in claim]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="255" y="559" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TPNfOtbe-Nmbu9DTXr1a-22" value="loop" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="260" y="803" width="570" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="TPNfOtbe-Nmbu9DTXr1a-23" value="&lt;div&gt;[for each recordID&lt;/div&gt;&lt;div&gt;in recordList]&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="267.5" y="833" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TPNfOtbe-Nmbu9DTXr1a-24" value="patch(replacementProfileID, recordID, noDelete)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="350" y="818" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TPNfOtbe-Nmbu9DTXr1a-25" value="" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="1">
+          <mxGeometry x="0.2632" y="5" relative="1" as="geometry">
+            <mxPoint x="390" y="845" as="sourcePoint" />
+            <mxPoint x="575" y="845" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TPNfOtbe-Nmbu9DTXr1a-26" value="createPublicProfile(replacementProfileDetails)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="1" target="TPNfOtbe-Nmbu9DTXr1a-20">
+          <mxGeometry x="0.8" y="5" relative="1" as="geometry">
+            <mxPoint x="392" y="564" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TPNfOtbe-Nmbu9DTXr1a-27" value="return replacementProfileID" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" parent="1" source="TPNfOtbe-Nmbu9DTXr1a-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="392" y="634" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TPNfOtbe-Nmbu9DTXr1a-28" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;exitPerimeter=0;" edge="1" parent="1" source="TPNfOtbe-Nmbu9DTXr1a-6">
+          <mxGeometry x="-0.1053" y="-5" relative="1" as="geometry">
+            <mxPoint x="391.57142857142844" y="923" as="targetPoint" />
+            <mxPoint x="570" y="951" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TPNfOtbe-Nmbu9DTXr1a-31" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="572.5" y="853" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TPNfOtbe-Nmbu9DTXr1a-32" value="patch(recordID, replacementProfileID)" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=5;exitPerimeter=0;" edge="1" parent="1" target="TPNfOtbe-Nmbu9DTXr1a-31" source="TPNfOtbe-Nmbu9DTXr1a-31">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="600" y="848" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="583" y="863" />
+              <mxPoint x="615" y="863" />
+              <mxPoint x="615" y="893" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TPNfOtbe-Nmbu9DTXr1a-33" value="alt" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="247.5" y="303" width="602.5" height="827" as="geometry" />
+        </mxCell>
+        <mxCell id="TPNfOtbe-Nmbu9DTXr1a-34" value="&lt;div&gt;[if no replacementProfileID&lt;/div&gt;&lt;div&gt;and no replacementProfileDetails]&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="247.5" y="333" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TPNfOtbe-Nmbu9DTXr1a-38" value="[if there is a replacement option]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="252.5" y="459" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TPNfOtbe-Nmbu9DTXr1a-39" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="570" y="692" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TPNfOtbe-Nmbu9DTXr1a-40" value="getAllRecordsForProfile(profileID)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="TPNfOtbe-Nmbu9DTXr1a-39" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="391.57142857142844" y="697.0000000000002" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TPNfOtbe-Nmbu9DTXr1a-41" value="return recordList" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" source="TPNfOtbe-Nmbu9DTXr1a-39" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="391.57142857142844" y="767.0000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TPNfOtbe-Nmbu9DTXr1a-42" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="387.5" y="390" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TPNfOtbe-Nmbu9DTXr1a-43" value="create(userID, profileID)" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;exitX=1.058;exitY=0.044;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="TPNfOtbe-Nmbu9DTXr1a-42" parent="1" source="TPNfOtbe-Nmbu9DTXr1a-42">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="370" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="418" y="392" />
+              <mxPoint x="418" y="420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
