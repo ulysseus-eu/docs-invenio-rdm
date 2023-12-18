@@ -50,10 +50,19 @@ A claim is filed in database with the following information:
 Creation of a "Claim" button for records, accessible only when the user is logged in. This button will direct users to a form page where they can choose to claim either a single profile or multiple records. Additionally, the form should incorporate a description field to assist the administrator in making decision.
 ![claim_button](../img//claim_button.png)
 Here are draft screens of how the claim process could look like.  
+
 First the claim form:
-![form_claim_request](../img//invenio-claim-page.png)
-the chois of the receiver profile:
-![public_profile](../img//public_profile.png)
+![form_claim_request-1](../img//invenio-claim-page-1.png)
+
+The chois of the receiver profile:
+
+![form_claim_request-2](../img//invenio-claim-page-2.png)
+
+Then select the data (profile or records).
+
+![form_claim_request-3](../img//invenio-claim-page-3.png)
+Then send the request via the submit button.
+
 Creation of a page for visualizing ongoing claim requests.  
 Within the requests section, include a "Pending Claims" tab that comprises a table displaying all pending claim requests.
 ![pending_claim](../img//pending_claim.png)
