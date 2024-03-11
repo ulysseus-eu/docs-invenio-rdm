@@ -1,6 +1,6 @@
 # How to implement the project
 
-## 1. Download all GitHub repositories
+## 1. Clone all GitHub repositories and switch to branch "person"
 
 - [invenio-communities](https://github.com/ulysseus-eu/invenio-communities)
 - [invenio-app-rdm](https://github.com/ulysseus-eu/invenio-app-rdm)
@@ -22,24 +22,24 @@ invenio-app-rdm = {path="../invenio-app-rdm", extras = ["postgresql"], version =
 instance-dev = {editable="True", path="./site"}
 ```
 
-## 4. Removing dependencies from locally cloned repositories
+## 4. Remove version of dependencies from locally cloned repositories
 
 In the setup.cfg of **invenio-app-rdm**, delete:
 
 ```bash
-invenio-communities>=10.0.0,<11.0.0
-invenio-rdm-records>=6.0.0,<7.0.0
+invenio-communities
+invenio-rdm-records
 ```
 
 In the setup.cfg of **invenio-rdm-records**, delete:
 
 ```plaintext
-invenio-communities>=10.0.0,<11.0.0
+invenio-communities
 ```
 
 ## 5. Delete pipfile.lock
 
-## 6. Switch to the 'person' branch before installation:
+## 6. Installation:
 
 ```bash
 invenio-cli install
